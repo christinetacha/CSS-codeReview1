@@ -23,8 +23,47 @@ ul {
 }
 
 img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#envelope {
+  padding-top: 33px;
+}
+
+#subscribe {
+  padding-top: 37px;
+  padding-left: -5px;
+}
+
+#boseLogo {
+  max-width: 200px;
+  max-height: 100px;
+  padding-right: 10px;
+}
+
+#cart {
+  max-width: 25px;
+  max-height: 25px;
+  position: absolute;
+  top: 55px;
+  right: 230px;
+}
+
+#qMark {
+  max-width: 25px;
+  max-height: 25px;
+  position: absolute;
+  top: 55px;
+  right: 195px;
+}
+
+#pin {
+  max-width: 25px;
+  max-height: 25px;
+  position: absolute;
+  top: 55px;
+  right: 160px;
 }
 
 .options li {
@@ -47,9 +86,9 @@ body {
     background-image: url("../img/headPhones.png");
     background-color: #fff;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: 600px 600px;
+    background-attachment: scroll;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -58,7 +97,7 @@ body {
   clear: both;
   display: table;
   margin: 30px;
-  padding-bottom: 500px;
+  padding-bottom: 325px;
 }
 
 .column1 {
@@ -89,4 +128,11 @@ body {
 
 #black {
   border-radius: 5%;
+}
+
+.gallery img {
+  max-width: 300px;
+  max-height: 250px;
+
+
 }
