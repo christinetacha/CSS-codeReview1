@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.options li {
+  float: right;
+  display: inline-block;
+  margin: 0;
+}
+
+.subscribe li {
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-left: 45%;
+  margin: 0;
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+body {
+    background-image: url("../img/headPhones.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 600px 600px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.mainSection {
+  content: "";
+  clear: both;
+  display: table;
+  margin: 30px;
+  padding-bottom: 500px;
+}
+
+.column1 {
+  width: 300px;
+}
+
+#caption {
+  position: absolute;
+  left: 950px;
+  top: 250px;
+  width: 100px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#smaller {
+  font-size: 12px;
+}
+
+#buyNow {
+  height: auto;
+  width: auto;
+  background-color: #ffcc00;
+  border-radius: 8%;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+#black {
+  border-radius: 5%;
+}
